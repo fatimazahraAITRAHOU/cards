@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.container{
+  width: 900px;
+}
+body{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itims{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   width: 100%;
+  height: 40vh;
+   
+}
+.text{
+    width: 400px;
+    color: #637E76;
+}
+h1{
+    margin-bottom: 20px;
+}
+.star{
+  background-color: rgba(177, 108, 108, 0.5);
+  padding: 10px; 
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.star.tow {
+    position: relative;
+    left: 30px ;
+}
+.star.tree {
+    position: relative;
+    left: 60px;
+}
+.text2{
+    display: flex;
+    align-items: center; 
+}
+.h5{
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    color: rgb(185, 185, 88);
+}
+.image{
+    border-radius: 50%;
+    margin: 20px 10px 0 10px;
+    width: 50px;
+}
+.card p{
+    width: 260px;
+    margin: 15px 10px 0 20px;
+}
+.card{
+    background-color: #637E76;
+    width: 320px;
+    height: 210px;
+    border-radius: 10px;
+    color: #FFEFE8;
+    margin: 25px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iren{ 
+    position: relative;
+    top: 60px;
+}
+.anne{ 
+    position: relative;
+    top: 120px;
+}
+@media (max-width: 800px){
+    .cards ,.itims{
+        display: grid;
+       grid-template-columns:repeat(auto-fit, 300px);
+        margin-bottom: 190px;
+      }
+      .stars , .cards{
+        margin-left: 25px;
+      }
+      .text{
+        text-align: center;
+      }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+
+    }
+}
+
+
+
+
